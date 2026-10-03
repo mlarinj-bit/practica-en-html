@@ -1,0 +1,173 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #4db8ff;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1e3a5f;
+    margin-bottom: 15px;
+}
+
+/* Títulos secundarios */
+h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Resalta el texto importante */
+strong {
+    color: #1e3a5f;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+ul,
+ol {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #1e3a5f;
+    outline: none;
+}
+
+button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4db8ff;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
